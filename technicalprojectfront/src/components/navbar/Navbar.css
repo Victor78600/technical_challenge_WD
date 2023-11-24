@@ -1,0 +1,67 @@
+:root {
+  --beige: rgb(237, 230, 227);
+  --black: rgb(54, 56, 46);
+  --red: rgb(240, 100, 73);
+  --blue: rgb(91, 195, 235);
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black); /* Change the background color as needed */
+  color: var(--beige); /* Change the text color as needed */
+  padding: 10px 20px;
+}
+
+.NavButton {
+  background-color: var(--black); /* Change the background color as needed */
+  color: white; /* Change the text color as needed */
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.MyProfile {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* Change the link color as needed */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.5rem; /* Change the font size as needed */
+  margin: 0;
+}
+
+button:hover {
+  background-color: #777; /* Change the button hover background color as needed */
+}
