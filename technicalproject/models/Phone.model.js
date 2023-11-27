@@ -3,6 +3,9 @@ const { Schema, model } = require("mongoose");
 // TODO: Please make sure you edit the User model to whatever makes sense in this case
 const phoneSchema = new Schema(
   {
+    id:{
+      type: String,
+    },
     name: {
       type: String,
       required: true,
@@ -29,10 +32,6 @@ const phoneSchema = new Schema(
       type: Number,
     },
   },
-  {
-    // this second object adds extra properties: `createdAt` and `updatedAt`
-    timestamps: true,
-  }
 );
 
 const Phone = model("Phone", phoneSchema);
