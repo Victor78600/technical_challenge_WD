@@ -22,6 +22,9 @@ function Navbar() {
     <div className="Navbar">
       <nav>
         <ul>
+        <Link to={`/`} >
+                <li>Home</li>
+              </Link>
           {phones.map((phone) => {
             return (
               <Link to={`/${phone.id}`} key={phone.id}>

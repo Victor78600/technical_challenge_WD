@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--black); /* Change the background color as needed */
+  background-color: var(--beige); /* Change the background color as needed */
   color: var(--beige); /* Change the text color as needed */
   padding: 10px 20px;
 }
